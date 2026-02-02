@@ -5,7 +5,7 @@ const cors = require('cors');
 const path = require('path');
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 7860;
 const DB_PATH = path.join(__dirname, 'voters.db');
 
 app.use(cors());
