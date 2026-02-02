@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.brutalist-card {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  transition: all 0.2s ease;
+}
+
+.brutalist-card:hover {
+  background-color: #ff1515;
+  color: #000000;
+  box-shadow: none;
+  transform: translate(4px, 4px);
+}
+
+.brutalist-card:hover * {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+.brutalist-input {
+  background-color: #ffffff;
+  border: 4px solid #000000;
+  padding: 1rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-left: 2px solid transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #000000;
+  border: 2px solid transparent;
+}
+
+/* Print Specific Styles */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #print-modal,
+  #print-modal * {
+    visibility: visible;
+  }
+
+  #print-modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
+
+::selection {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0);
+}
+
+.color-scheme-dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}

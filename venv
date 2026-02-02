@@ -1,0 +1,8 @@
+<script>start("/Users/rsmmonaem/Projects/Nibiz/voter-talika/Voter Talika/.venv/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("bin","bin",1,416,"416 B",1770040270,"2/2/26, 7:51:10 PM");</script>
+<script>addRow("include","include",1,96,"96 B",1770038494,"2/2/26, 7:21:34 PM");</script>
+<script>addRow("lib","lib",1,128,"128 B",1770038499,"2/2/26, 7:21:39 PM");</script>
+<script>addRow(".DS_Store",".DS_Store",0,6148,"6.0 kB",1770040275,"2/2/26, 7:51:15 PM");</script>
+<script>addRow(".gitignore",".gitignore",0,1,"1 B",1770038497,"2/2/26, 7:21:37 PM");</script>
+<script>addRow("pyvenv.cfg","pyvenv.cfg",0,314,"314 B",1770038494,"2/2/26, 7:21:34 PM");</script>
